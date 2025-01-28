@@ -11,7 +11,7 @@ const HeroSection = () => {
       description: "Poder, elegância e tecnologia italiana em sua forma mais pura.",
       mainImage: "/moto-1.png",
       thumbnail: "/moto-1.png",
-      gradient: "linear-gradient(45deg, #e32b2b,#000000)",
+      gradient: "linear-gradient(45deg, #e32b2b, #000000)",
       thumbBackground: "bg-black"
     },
     {

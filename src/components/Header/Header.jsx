@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import './Header.css';
+import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   return (
     <header className="header">
@@ -27,9 +29,14 @@ const Header = () => {
             <li><a href="#gallery" onClick={() => setMenuOpen(false)}>Galeria</a></li>
           </ul>
 
-          <div className="action-buttons">
-            <button className="btn btn-test">Test Drive</button>
-            <button className="btn btn-buy">Comprar</button>
+          <div className="search-container">
+            <div className={`search-input ${searchOpen ? 'active' : ''}`}>
+              <input type="text" placeholder="Pesquisar..." />
+            </div>
+            <FaSearch 
+              className="search-icon" 
+              onClick={() => setSearchOpen(!searchOpen)}
+            />
           </div>
         </nav>
       </div>
