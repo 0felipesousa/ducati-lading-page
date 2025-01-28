@@ -1,6 +1,6 @@
-# React + Vite
+# landing Page Ducati 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing Page produzida com React.js para motos Ducati
 
 Currently, two official plugins are available:
 
