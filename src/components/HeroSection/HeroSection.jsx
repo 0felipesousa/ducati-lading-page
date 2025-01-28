@@ -7,7 +7,7 @@ const HeroSection = () => {
   const slides = [
     {
       id: 0,
-      title: "Ducati Panigale",
+      title: "Ducati Panigale V4",
       description: "Poder, elegância e tecnologia italiana em sua forma mais pura.",
       mainImage: "/moto-1.png",
       thumbnail: "/moto-1.png",
@@ -16,7 +16,7 @@ const HeroSection = () => {
     },
     {
       id: 1,
-      title: "Ducati Diavel",
+      title: "Ducati Diavel V4",
       description: "Performance extrema com design revolucionário.",
       mainImage: "/moto-2.png",
       thumbnail: "/moto-2.png",

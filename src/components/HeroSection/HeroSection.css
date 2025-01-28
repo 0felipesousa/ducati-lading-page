@@ -29,8 +29,7 @@
 
 .hero-text {
   color: white;
-  flex: 0 1 40%;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .hero-text h1 {
@@ -75,7 +74,7 @@
   object-fit: contain;
   transform: rotate(-45deg);
   filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
-  animation: floatBike 6s ease-in-out infinite;
+  animation: floatBike 8s ease-in-out infinite;
   transition: opacity 0.5s ease;
   position: absolute;
   right: -10%;
