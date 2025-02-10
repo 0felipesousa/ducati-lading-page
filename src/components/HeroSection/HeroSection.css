@@ -72,12 +72,9 @@
   height: 100%;
   width: auto;
   object-fit: contain;
-  transform: rotate(-45deg);
   filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
-  animation: floatBike 8s ease-in-out infinite;
+  animation: floatBike 4s ease-in-out infinite;
   transition: opacity 0.5s ease;
-  position: absolute;
-  right: -10%;
 }
 
 .thumbnails {
@@ -147,10 +144,10 @@
 
 @keyframes floatBike {
   0%, 100% {
-    transform: rotate(-45deg) translateY(0);
+    transform: translateY(0);
   }
   50% {
-    transform: rotate(-45deg) translateY(-20px);
+    transform: translateY(-10px);
   }
 }
 
@@ -161,10 +158,6 @@
 
   .hero-image {
     height: 60vh;
-  }
-
-  .main-bike {
-    right: -5%;
   }
 }
 
@@ -186,7 +179,6 @@
 
   .main-bike {
     height: 80%;
-    right: auto;
   }
 }
 
